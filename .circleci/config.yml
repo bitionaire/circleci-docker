@@ -10,4 +10,7 @@ jobs:
       - setup_remote_docker:
           docker_layer_caching: true
 
-      - run: docker build -t bitionaire/node-web-app .
+      - run: |
+          docker build -t bitionaire/node-web-app .
+          docker login -u $DOCKER_USER -p $DOCKER_PASS
+          docker push bitionaire/node-web-app:latest
