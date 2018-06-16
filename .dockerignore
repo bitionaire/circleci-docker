@@ -1,0 +1,6 @@
+.idea
+node_modules
+*.iml
++.md
+npm-debug.log
+.circleci

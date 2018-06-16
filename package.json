@@ -1,0 +1,22 @@
+{
+  "name": "circleci-docker",
+  "version": "1.0.0",
+  "description": "Example for Docker image build with CircleCI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitionaire/circleci-docker.git"
+  },
+  "author": "bitionaire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitionaire/circleci-docker/issues"
+  },
+  "homepage": "https://github.com/bitionaire/circleci-docker#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
